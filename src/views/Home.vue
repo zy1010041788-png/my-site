@@ -69,5 +69,8 @@ const displayName = computed(() => locale.value === 'zh' ? '张扬' : 'Zhang Yan
 const email = '23s035039@stu.hit.edu.cn'
 const avatarSrc = ref('')
 const skills = ref(['ArcGIS', 'Tableau', 'SPSS', 'Python', 'Photoshop', 'Illustrator', 'InDesign', 'SketchUp', 'AutoCAD'])
-const interests = ref(['摄影', '网球 (3.0)', '马拉松 (4:31:16)', '开源', '设计'])
+const interests = computed(() => locale.value === 'zh'
+  ? ['摄影', '网球 (3.0)', '马拉松 (4:31:16)']
+  : ['Photography', 'Tennis (3.0)', 'Marathon (4:31:16)']
+)
 </script>

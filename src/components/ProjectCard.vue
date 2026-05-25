@@ -16,10 +16,10 @@
       <p class="text-sm text-secondary mb-3 line-clamp-2">{{ projectSummary }}</p>
       <div class="flex flex-wrap gap-1.5">
         <span
-          v-for="tag in project.tags"
+          v-for="tag in projectTags"
           :key="tag"
-          class="px-2 py-0.5 text-xs rounded"
-          :class="project.tagClass || 'bg-gray-100 text-secondary'"
+          class="px-2 py-0.5 text-xs rounded border"
+          :class="project.tagClass || 'bg-gray-100 text-secondary border-gray-200'"
         >
           {{ tag }}
         </span>
@@ -49,4 +49,5 @@ const { locale } = useI18n()
 
 const projectTitle = computed(() => locale.value === 'zh' ? props.project.title : (props.project.titleEn || props.project.title))
 const projectSummary = computed(() => locale.value === 'zh' ? props.project.summary : (props.project.summaryEn || props.project.summary))
+const projectTags = computed(() => locale.value === 'zh' ? props.project.tags : (props.project.tagsEn || props.project.tags))
 </script>

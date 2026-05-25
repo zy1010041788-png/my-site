@@ -10,7 +10,11 @@
       <p class="text-sm text-secondary mt-1">
         {{ itemSubheading(item) }}
         <template v-if="item.supervisors && item.supervisors.length">
-          <a v-for="(sup, i) in item.supervisors" :key="i" :href="sup.link" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">({{ sup.name }})</a>
+          <span class="text-xs text-secondary">{{ locale === 'zh' ? '导师：' : 'Supervisors: ' }}</span>
+          <template v-for="(sup, i) in item.supervisors" :key="i">
+            <a :href="sup.link" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs">{{ supervisorName(sup) }}</a>
+            <span v-if="i < item.supervisors.length - 1" class="text-xs text-secondary">, </span>
+          </template>
         </template>
         <a v-else-if="item.supervisorLink" :href="item.supervisorLink" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">(导师主页)</a>
       </p>
@@ -41,5 +45,9 @@ function itemSubheading(item) {
 
 function itemDescription(item) {
   return locale.value === 'zh' ? item.description : (item.descriptionEn || item.description)
+}
+
+function supervisorName(sup) {
+  return locale.value === 'zh' ? sup.name : (sup.nameEn || sup.name)
 }
 </script>

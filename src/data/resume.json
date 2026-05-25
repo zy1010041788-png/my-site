@@ -9,8 +9,8 @@
       "description": "获特等奖学金（2024、2025，前20%）。",
       "descriptionEn": "Special Grade Scholarship 2024, 2025 (top 20%).",
       "supervisors": [
-        { "name": "苏万庆教授", "link": "https://homepage.hit.edu.cn/suwq" },
-        { "name": "关金平教授", "link": "https://homepage.hit.edu.cn/guanjinping" }
+        { "name": "苏万庆教授", "nameEn": "Prof. Su Wanqing", "link": "https://homepage.hit.edu.cn/suwq" },
+        { "name": "关金平教授", "nameEn": "Prof. Guan Jinping", "link": "https://homepage.hit.edu.cn/guanjinping" }
       ]
     },
     {
