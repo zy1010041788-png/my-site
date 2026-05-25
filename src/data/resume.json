@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "period": "2020 - 2024",
+      "school": "某某大学",
+      "schoolEn": "Example University",
+      "degree": "计算机科学 学士",
+      "degreeEn": "B.S. in Computer Science",
+      "description": "主修计算机科学与技术。",
+      "descriptionEn": "Major in Computer Science and Technology."
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 - Present",
+      "company": "某某公司",
+      "companyEn": "Example Company",
+      "role": "前端开发工程师",
+      "roleEn": "Frontend Developer",
+      "description": "负责Web前端开发。",
+      "descriptionEn": "Responsible for frontend web development."
+    }
+  ],
+  "skills": [
+    { "name": "Vue.js", "level": 80 },
+    { "name": "JavaScript", "level": 75 },
+    { "name": "HTML/CSS", "level": 85 },
+    { "name": "Python", "level": 60 }
+  ]
+}
