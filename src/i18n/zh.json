@@ -26,7 +26,9 @@
   "projects": {
     "title": "项目作品",
     "viewProject": "查看项目",
-    "techUsed": "技术栈"
+    "techUsed": "技术栈",
+    "urbanResearch": "城市与交通研究",
+    "toolsDev": "工具与开发"
   },
   "photography": {
     "title": "摄影作品",

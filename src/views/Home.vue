@@ -22,14 +22,6 @@
       </section>
     </ScrollReveal>
 
-    <!-- Research & Project Experience -->
-    <ScrollReveal>
-      <section class="mb-14">
-        <h2 class="text-2xl text-primary mb-6">{{ $t('home.experience') }}</h2>
-        <Timeline :items="resumeData.experience" type="experience" />
-      </section>
-    </ScrollReveal>
-
     <!-- Skills -->
     <ScrollReveal>
       <section class="mb-14">

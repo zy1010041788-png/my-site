@@ -1,12 +1,50 @@
 [
   {
     "id": 1,
+    "title": "城市创新群体活动模式研究",
+    "titleEn": "Activity Patterns of Urban Innovative Groups",
+    "summary": "基于3.1万+ GPS记录，分析创新与非创新群体的多日活动-出行模式；使用聚类和GIS空间分析方法。",
+    "summaryEn": "Analyzed multi-day activity-travel patterns of innovative vs. non-innovative groups using 31,000+ GPS records; employed clustering and GIS spatial analysis methods.",
+    "tags": ["GPS轨迹数据", "聚类分析", "GIS", "活动-出行模式"],
+    "tagClass": "bg-cyan-50 text-cyan-700",
+    "image": "",
+    "link": "",
+    "category": "research"
+  },
+  {
+    "id": 2,
+    "title": "亚热带城市道路环境对骑行路线选择的影响",
+    "titleEn": "Impact of Subtropical Urban Road Environments on Cycling Route Choice",
+    "summary": "研究深圳环境与基础设施因素如何影响骑行者非通勤路线选择；构建OLS模型量化自然与建成环境的影响。",
+    "summaryEn": "Examined how environmental and infrastructural factors shape cyclists' non-commuting route choices in Shenzhen; built OLS models to quantify natural and built environment effects.",
+    "tags": ["骑行行为", "路线选择", "OLS模型", "建成环境"],
+    "tagClass": "bg-emerald-50 text-emerald-700",
+    "image": "",
+    "link": "",
+    "category": "research"
+  },
+  {
+    "id": 3,
+    "title": "货运与物流调查：车辆与货运追踪数据收集方法",
+    "titleEn": "Future Freight and Logistics Survey: Vehicle-and-Shipment-Tracking Data Collection",
+    "summary": "收集托运人、承运人、司机等多方数据；开发调查平台并开展试点研究验证可行性。",
+    "summaryEn": "Collected data from shippers, carriers, and drivers; developed a survey platform and conducted pilot study to verify feasibility.",
+    "tags": ["货运调查", "数据采集", "调查平台", "物流"],
+    "tagClass": "bg-indigo-50 text-indigo-700",
+    "image": "",
+    "link": "",
+    "category": "research"
+  },
+  {
+    "id": 4,
     "title": "个人主页",
     "titleEn": "Personal Website",
     "summary": "基于 Vue 3 + Tailwind CSS 构建的双语个人主页，展示简历、项目作品与摄影。自动部署于 GitHub Pages。",
     "summaryEn": "Bilingual personal website built with Vue 3 + Tailwind CSS. Showcases resume, projects, and photography. Auto-deployed on GitHub Pages.",
     "tags": ["Vue 3", "Tailwind CSS", "GitHub Pages", "vue-i18n"],
+    "tagClass": "bg-amber-50 text-amber-700",
     "image": "",
-    "link": "https://github.com/zy1010041788-png/my-site"
+    "link": "https://github.com/zy1010041788-png/my-site",
+    "category": "dev"
   }
 ]

@@ -6,9 +6,12 @@
       "schoolEn": "Harbin Institute of Technology, Shenzhen",
       "degree": "城市规划 工学硕士",
       "degreeEn": "M.Eng. in Urban Planning",
-      "description": "导师：苏万庆教授、关金平教授。获特等奖学金（2024、2025，前20%）。",
-      "descriptionEn": "Supervisors: Prof. Su Wanqing, Prof. Guan Jinping. Special Grade Scholarship 2024, 2025 (top 20%).",
-      "supervisorLink": "http://faculty.hitsz.edu.cn/suwanqing"
+      "description": "获特等奖学金（2024、2025，前20%）。",
+      "descriptionEn": "Special Grade Scholarship 2024, 2025 (top 20%).",
+      "supervisors": [
+        { "name": "苏万庆教授", "link": "https://homepage.hit.edu.cn/suwq" },
+        { "name": "关金平教授", "link": "https://homepage.hit.edu.cn/guanjinping" }
+      ]
     },
     {
       "period": "2018 - 2023",
@@ -20,35 +23,7 @@
       "descriptionEn": "GPA: 3.3/4.0. Outstanding Youth League Member, Special Contribution Award of Campus Culture."
     }
   ],
-  "experience": [
-    {
-      "period": "2024 - 2026",
-      "company": "哈尔滨工业大学（深圳）",
-      "companyEn": "Harbin Institute of Technology, Shenzhen",
-      "role": "城市创新群体活动模式研究",
-      "roleEn": "Activity Patterns of Urban Innovative Groups",
-      "description": "基于3.1万+ GPS记录，分析创新与非创新群体的多日活动-出行模式；使用聚类和GIS空间分析方法。",
-      "descriptionEn": "Analyzed multi-day activity-travel patterns using 31,000+ GPS records; employed clustering and GIS spatial analysis."
-    },
-    {
-      "period": "2024 - 2025",
-      "company": "哈尔滨工业大学（深圳）",
-      "companyEn": "Harbin Institute of Technology, Shenzhen",
-      "role": "亚热带城市道路环境对骑行路线选择的影响",
-      "roleEn": "Impact of Subtropical Urban Road Environments on Cycling Route Choice",
-      "description": "研究深圳环境与基础设施因素如何影响骑行者非通勤路线选择；构建OLS模型量化自然与建成环境的影响。",
-      "descriptionEn": "Examined how environmental and infrastructural factors shape cyclists' non-commuting route choices in Shenzhen; built OLS models to quantify effects."
-    },
-    {
-      "period": "2023 - 2025",
-      "company": "MIT / 哈尔滨工业大学（深圳）",
-      "companyEn": "MIT / HIT Shenzhen",
-      "role": "货运与物流调查：车辆与货运追踪数据收集方法",
-      "roleEn": "Future Freight and Logistics Survey",
-      "description": "收集托运人、承运人、司机等多方数据；开发调查平台并开展试点研究验证可行性。",
-      "descriptionEn": "Collected data from shippers, carriers, and drivers; developed a survey platform and pilot study to prove feasibility."
-    }
-  ],
+  "experience": [],
   "skills": [
     { "name": "ArcGIS", "level": 85 },
     { "name": "Python", "level": 70 },

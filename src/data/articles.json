@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "未来货运与物流调查：一种整合车辆与货运追踪的数据收集方法及美国案例研究",
+    "title": "Future freight and logistics survey: An integrated vehicle-and-shipment-tracking data collection method and a case study in the United States",
     "titleEn": "Future freight and logistics survey: An integrated vehicle-and-shipment-tracking data collection method and a case study in the United States",
     "authors": [
       { "name": "Zhang, Y.", "first": true },
@@ -14,6 +14,7 @@
     "status": "published",
     "date": "2026",
     "journal": "Transportation Research Part E: Logistics and Transportation Review, 205, 104517",
+    "journalAbbr": "Transportation Research Part E",
     "doi": "10.1016/j.tre.2025.104517",
     "doiUrl": "https://doi.org/10.1016/j.tre.2025.104517",
     "keywords": ["Freight Survey", "Vehicle Tracking", "Shipment Data", "GPS Data", "Logistics"],
@@ -25,7 +26,7 @@
   },
   {
     "id": 2,
-    "title": "高龄老人出行方式选择与新兴出行技术接受度：中美案例研究",
+    "title": "Oldest old's travel mode choice and new mobility technology acceptance: case in America and China",
     "titleEn": "Oldest old's travel mode choice and new mobility technology acceptance: case in America and China",
     "authors": [
       { "name": "Zhang, Y.", "first": true },
@@ -39,6 +40,7 @@
     "status": "published",
     "date": "2024",
     "journal": "Frontiers in Public Health, 12:1344854",
+    "journalAbbr": "Frontiers in Public Health",
     "doi": "10.3389/fpubh.2024.1344854",
     "doiUrl": "https://doi.org/10.3389/fpubh.2024.1344854",
     "keywords": ["Aging Mobility", "Mode Choice", "Technology Acceptance", "Oldest Old", "Cross-National"],
@@ -47,5 +49,26 @@
     "cas": "2区",
     "abstract": "背景：高龄老人（80岁以上）是全球增长最快的人口群体，然而他们的出行模式和新技术接受度仍未得到充分研究。本跨国研究考察了中美两国高龄老人的出行方式选择及对新兴出行技术的接受程度。方法：利用两国城市和郊区社区的调查数据，采用离散选择模型分析出行方式选择和技术接受度的决定因素，控制社会人口、健康和环境因素。结果：研究揭示了两国之间的显著差异，文化背景、城市形态和家庭结构发挥重要作用。中国高龄老人更依赖公共交通和慢行出行方式，而美国高龄老人则更依赖私家车和网约车服务。两个群体对自动驾驶汽车和按需出行服务均表现出谨慎但可衡量的兴趣，其接受程度取决于无障碍功能设计和信任建立措施。结论：本研究为制定适合不同文化背景下高龄老人需求的适老化交通政策和包容性出行技术设计提供了循证建议。",
     "abstractEn": "Background: The oldest old (aged 80+) represent the fastest-growing demographic globally, yet their mobility patterns and technology acceptance remain understudied. This cross-national study examines travel mode choice and receptivity to emerging mobility technologies among oldest-old populations in America and China. Methods: Using survey data collected from urban and suburban communities in both countries, we employed discrete choice models to analyze the determinants of mode choice and technology acceptance, controlling for socio-demographic, health, and environmental factors. Results: Findings reveal distinct patterns between the two countries, with cultural context, urban form, and family structure playing significant roles. Chinese oldest old show higher reliance on public transit and active modes, while American counterparts depend more on personal vehicles and ride services. Both populations demonstrate cautious but measurable interest in autonomous vehicles and on-demand mobility services, contingent on accessibility features and trust-building measures. Conclusion: The study provides evidence-based recommendations for age-friendly transportation policies and inclusive mobility technology design tailored to the needs of the oldest old across different cultural contexts."
+  },
+  {
+    "id": 3,
+    "title": "A STUDY ON THE ACTIVITY PATTERNS OF URBAN CREATIVE CLASS BASED ON HUMANISTIC NEEDS: A CASE STUDY OF THE GREATER BOSTON METROPOLITAN AREA",
+    "titleEn": "A STUDY ON THE ACTIVITY PATTERNS OF URBAN CREATIVE CLASS BASED ON HUMANISTIC NEEDS: A CASE STUDY OF THE GREATER BOSTON METROPOLITAN AREA",
+    "authors": [
+      { "name": "Zhang, Y.", "first": true },
+      { "name": "Guan, J.", "first": false }
+    ],
+    "status": "ongoing",
+    "date": "",
+    "journal": "",
+    "journalAbbr": "",
+    "doi": "",
+    "doiUrl": "",
+    "keywords": ["Creative Class", "Activity Patterns", "Humanistic Needs", "Boston", "GPS Data"],
+    "jcr": "",
+    "jcrIf": "",
+    "cas": "",
+    "abstract": "本研究基于人本主义需求理论，以大波士顿都市区为案例，探讨城市创意阶层活动模式的特征与形成机制。研究利用GPS轨迹数据与活动日志调查，分析创意阶层在空间行为、时间分配和活动选择方面的独特性，旨在为包容性城市规划和创新街区设计提供实证依据。",
+    "abstractEn": "This study examines the activity patterns of the urban creative class through the lens of humanistic needs theory, using the Greater Boston Metropolitan Area as a case study. Leveraging GPS trajectory data and activity diary surveys, the research analyzes the distinct spatial behaviors, time allocation patterns, and activity choices of creative workers. The findings aim to provide empirical evidence for inclusive urban planning and innovation district design."
   }
 ]

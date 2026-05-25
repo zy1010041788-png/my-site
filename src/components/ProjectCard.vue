@@ -18,7 +18,8 @@
         <span
           v-for="tag in project.tags"
           :key="tag"
-          class="px-2 py-0.5 bg-gray-100 text-xs text-secondary rounded"
+          class="px-2 py-0.5 text-xs rounded"
+          :class="project.tagClass || 'bg-gray-100 text-secondary'"
         >
           {{ tag }}
         </span>

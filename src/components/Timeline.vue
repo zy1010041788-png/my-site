@@ -9,7 +9,10 @@
       </h3>
       <p class="text-sm text-secondary mt-1">
         {{ itemSubheading(item) }}
-        <a v-if="item.supervisorLink" :href="item.supervisorLink" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">(导师主页)</a>
+        <template v-if="item.supervisors && item.supervisors.length">
+          <a v-for="(sup, i) in item.supervisors" :key="i" :href="sup.link" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">({{ sup.name }})</a>
+        </template>
+        <a v-else-if="item.supervisorLink" :href="item.supervisorLink" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">(导师主页)</a>
       </p>
       <p v-if="itemDescription(item)" class="text-sm text-gray-400 mt-2">{{ itemDescription(item) }}</p>
     </div>
