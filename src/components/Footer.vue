@@ -36,9 +36,9 @@
 import { ref } from 'vue'
 
 const year = new Date().getFullYear()
-const name = ref('Your Name')
+const name = ref('张扬')
 const links = ref({
-  github: 'https://github.com/your-username',
-  email: 'your-email@example.com',
+  github: 'https://github.com/zy1010041788-png',
+  email: '23s035039@stu.hit.edu.cn',
 })
 </script>

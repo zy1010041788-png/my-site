@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "示例项目",
-    "titleEn": "Sample Project",
-    "summary": "这是一个示例项目描述。",
-    "summaryEn": "A sample project description.",
-    "tags": ["Vue", "Tailwind"],
+    "title": "个人主页",
+    "titleEn": "Personal Website",
+    "summary": "基于 Vue 3 + Tailwind CSS 构建的双语个人主页，展示简历、项目作品与摄影。自动部署于 GitHub Pages。",
+    "summaryEn": "Bilingual personal website built with Vue 3 + Tailwind CSS. Showcases resume, projects, and photography. Auto-deployed on GitHub Pages.",
+    "tags": ["Vue 3", "Tailwind CSS", "GitHub Pages", "vue-i18n"],
     "image": "",
-    "link": "https://github.com"
+    "link": "https://github.com/zy1010041788-png/my-site"
   }
 ]

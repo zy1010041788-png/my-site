@@ -1,13 +1,24 @@
 [
   {
     "id": 1,
-    "title": "示例文章标题",
-    "titleEn": "Sample Article Title",
-    "summary": "这是文章的摘要。",
-    "summaryEn": "This is the article summary.",
-    "date": "2026-05-25",
-    "tags": ["技术", "Vue"],
-    "content": "## 这是标题\n\n这是文章正文内容。支持 **Markdown** 格式。",
-    "contentEn": "## This is a heading\n\nThis is the article body. Supports **Markdown** format."
+    "title": "Future freight and logistics survey: An integrated vehicle-and-shipment-tracking data collection method and a case study in the United States",
+    "titleEn": "Future freight and logistics survey: An integrated vehicle-and-shipment-tracking data collection method and a case study in the United States",
+    "summary": "Transportation Research Part E: Logistics and Transportation Review, 205, 104517. (JCR Q1, IF=8.8)",
+    "summaryEn": "Transportation Research Part E: Logistics and Transportation Review, 205, 104517. (JCR Q1, IF=8.8)",
+    "date": "2026",
+    "tags": ["Freight", "Logistics", "Data Collection"],
+    "content": "## Future freight and logistics survey\n\n**Authors:** Zhang, Y., Guan, J., Jing, P., You, L., Zhao, F., & Ben-Akiva, M.\n\n**Journal:** Transportation Research Part E: Logistics and Transportation Review, 205, 104517.\n\n**DOI:** [10.1016/j.tre.2025.104517](https://doi.org/10.1016/j.tre.2025.104517)\n\n**Abstract:** This study presents an integrated vehicle-and-shipment-tracking data collection method for freight and logistics surveys, with a case study in the United States.",
+    "contentEn": "## Future freight and logistics survey\n\n**Authors:** Zhang, Y., Guan, J., Jing, P., You, L., Zhao, F., & Ben-Akiva, M.\n\n**Journal:** Transportation Research Part E: Logistics and Transportation Review, 205, 104517.\n\n**DOI:** [10.1016/j.tre.2025.104517](https://doi.org/10.1016/j.tre.2025.104517)\n\n**Abstract:** This study presents an integrated vehicle-and-shipment-tracking data collection method for freight and logistics surveys, with a case study in the United States."
+  },
+  {
+    "id": 2,
+    "title": "Oldest old's travel mode choice and new mobility technology acceptance: case in America and China",
+    "titleEn": "Oldest old's travel mode choice and new mobility technology acceptance: case in America and China",
+    "summary": "Frontiers in Public Health, 12:1344854. (JCR Q2, IF=3.4)",
+    "summaryEn": "Frontiers in Public Health, 12:1344854. (JCR Q2, IF=3.4)",
+    "date": "2024",
+    "tags": ["Aging Mobility", "Mode Choice", "Technology Acceptance"],
+    "content": "## Oldest old's travel mode choice and new mobility technology acceptance\n\n**Authors:** Zhang Y, Guan J, D'Ambrosio LA, Miller J, Lee C, Zhang K and Coughlin JF\n\n**Journal:** Frontiers in Public Health, 12:1344854.\n\n**DOI:** [10.3389/fpubh.2024.1344854](https://doi.org/10.3389/fpubh.2024.1344854)\n\n**Abstract:** A cross-national analysis of mobility patterns and new mobility technology acceptance among the oldest-old in America and China, providing insights on accessibility, aging mobility challenges, and policy interventions.",
+    "contentEn": "## Oldest old's travel mode choice and new mobility technology acceptance\n\n**Authors:** Zhang Y, Guan J, D'Ambrosio LA, Miller J, Lee C, Zhang K and Coughlin JF\n\n**Journal:** Frontiers in Public Health, 12:1344854.\n\n**DOI:** [10.3389/fpubh.2024.1344854](https://doi.org/10.3389/fpubh.2024.1344854)\n\n**Abstract:** A cross-national analysis of mobility patterns and new mobility technology acceptance among the oldest-old in America and China, providing insights on accessibility, aging mobility challenges, and policy interventions."
   }
 ]

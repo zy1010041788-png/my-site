@@ -7,7 +7,7 @@
           <img v-if="avatarSrc" :src="avatarSrc" alt="Avatar" class="w-full h-full object-cover" />
         </div>
         <h1 class="text-4xl md:text-5xl font-heading text-primary mb-3">
-          {{ $t('home.greeting') }} <span class="text-accent">{{ name }}</span>
+          <span v-if="$t('home.greeting')">{{ $t('home.greeting') }} </span><span class="text-accent">{{ name }}</span>
         </h1>
         <p class="text-lg text-secondary mb-6">{{ $t('home.role') }}</p>
         <p class="text-secondary leading-relaxed max-w-xl">{{ $t('home.bio') }}</p>
@@ -50,8 +50,8 @@
 import { ref } from 'vue'
 import ScrollReveal from '../components/ScrollReveal.vue'
 
-const name = ref('Your Name')
+const name = ref('张扬')
 const avatarSrc = ref('')
-const skills = ref(['Vue.js', 'JavaScript', 'HTML/CSS', 'Tailwind CSS', 'Python', 'Git'])
-const interests = ref(['摄影 Photography', '开源 Open Source', '设计 Design', '写作 Writing'])
+const skills = ref(['ArcGIS', 'Tableau', 'SPSS', 'Python', 'Photoshop', 'Illustrator', 'InDesign', 'SketchUp', 'AutoCAD'])
+const interests = ref(['摄影', '网球 (3.0)', '马拉松 (4:31:16)', '开源', '设计'])
 </script>

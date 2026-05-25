@@ -1,22 +1,22 @@
 {
   "nav": {
     "home": "Home",
-    "articles": "Articles",
+    "articles": "Publications",
     "projects": "Projects",
     "resume": "Resume",
     "photography": "Photography"
   },
   "home": {
     "greeting": "Hi, I'm",
-    "role": "Developer / Designer",
-    "bio": "About me. Passionate about technology, design, and photography.",
+    "role": "Urban Planning Researcher / Designer",
+    "bio": "Master student at Harbin Institute of Technology. Passionate about urban planning, data analysis, design, and photography.",
     "skills": "Skills",
     "interests": "Interests"
   },
   "articles": {
-    "title": "Articles",
+    "title": "Publications",
     "readMore": "Read More",
-    "back": "Back to Articles",
+    "back": "Back to Publications",
     "publishedOn": "Published on"
   },
   "projects": {

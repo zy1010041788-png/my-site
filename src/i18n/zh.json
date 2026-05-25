@@ -1,15 +1,15 @@
 {
   "nav": {
-    "home": "首页",
+    "home": "主页",
     "articles": "文章",
     "projects": "项目",
     "resume": "简历",
     "photography": "摄影"
   },
   "home": {
-    "greeting": "你好，我是",
-    "role": "开发者 / 设计师",
-    "bio": "这里是关于我的介绍。热爱技术、设计与摄影。",
+    "greeting": "",
+    "role": "城市规划研究者 / 设计师",
+    "bio": "哈尔滨工业大学（深圳）硕士研究生。热爱城市规划、数据分析、设计与摄影。",
     "skills": "技能",
     "interests": "兴趣爱好"
   },
