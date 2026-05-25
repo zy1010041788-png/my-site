@@ -3,13 +3,12 @@
     "home": "Home",
     "articles": "Publications",
     "projects": "Projects",
-    "resume": "Resume",
     "photography": "Photography"
   },
   "home": {
-    "greeting": "Hi, I'm",
-    "role": "Urban Planning Researcher / Designer",
-    "bio": "Master student at Harbin Institute of Technology. Passionate about urban planning, data analysis, design, and photography.",
+    "subtitle": "Urban Planning / Harbin Institute of Technology, Shenzhen",
+    "education": "Education",
+    "experience": "Research & Project Experience",
     "skills": "Skills",
     "interests": "Interests"
   },
@@ -17,18 +16,17 @@
     "title": "Publications",
     "readMore": "Read More",
     "back": "Back to Publications",
-    "publishedOn": "Published on"
+    "publishedOn": "Published",
+    "authors": "Authors",
+    "status": "Status",
+    "published": "Published",
+    "doi": "View Paper",
+    "jcr": "Journal Ranking"
   },
   "projects": {
     "title": "Projects",
     "viewProject": "View Project",
     "techUsed": "Tech Stack"
-  },
-  "resume": {
-    "title": "Resume",
-    "education": "Education",
-    "experience": "Experience",
-    "skills": "Skills"
   },
   "photography": {
     "title": "Photography",

@@ -33,10 +33,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
+const { locale } = useI18n()
 const year = new Date().getFullYear()
-const name = ref('张扬')
+const name = computed(() => locale.value === 'zh' ? '张扬' : 'Zhang Yang')
 const links = ref({
   github: 'https://github.com/zy1010041788-png',
   email: '23s035039@stu.hit.edu.cn',

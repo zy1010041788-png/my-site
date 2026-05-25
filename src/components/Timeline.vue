@@ -3,8 +3,14 @@
     <div v-for="(item, index) in items" :key="index" class="mb-10 last:mb-0 relative">
       <div class="absolute -left-[2.15rem] top-1 w-3 h-3 rounded-full bg-accent border-2 border-white"></div>
       <span class="text-xs text-accent font-semibold tracking-wide">{{ item.period }}</span>
-      <h3 class="text-lg font-heading text-primary mt-1">{{ itemHeading(item) }}</h3>
-      <p class="text-sm text-secondary mt-1">{{ itemSubheading(item) }}</p>
+      <h3 class="text-lg font-semibold text-primary mt-1">
+        <a v-if="item.link" :href="item.link" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors duration-200 underline decoration-dotted underline-offset-2">{{ itemHeading(item) }}</a>
+        <span v-else>{{ itemHeading(item) }}</span>
+      </h3>
+      <p class="text-sm text-secondary mt-1">
+        {{ itemSubheading(item) }}
+        <a v-if="item.supervisorLink" :href="item.supervisorLink" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline text-xs ml-1">(导师主页)</a>
+      </p>
       <p v-if="itemDescription(item)" class="text-sm text-gray-400 mt-2">{{ itemDescription(item) }}</p>
     </div>
   </div>

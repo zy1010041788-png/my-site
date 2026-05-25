@@ -1,34 +1,32 @@
 {
   "nav": {
     "home": "主页",
-    "articles": "文章",
+    "articles": "论文",
     "projects": "项目",
-    "resume": "简历",
     "photography": "摄影"
   },
   "home": {
-    "greeting": "",
-    "role": "城市规划研究者 / 设计师",
-    "bio": "哈尔滨工业大学（深圳）硕士研究生。热爱城市规划、数据分析、设计与摄影。",
+    "subtitle": "城乡规划学 / 哈尔滨工业大学（深圳）",
+    "education": "教育经历",
+    "experience": "研究与项目经历",
     "skills": "技能",
     "interests": "兴趣爱好"
   },
   "articles": {
-    "title": "文章",
-    "readMore": "阅读更多",
-    "back": "返回文章列表",
-    "publishedOn": "发布于"
+    "title": "论文发表",
+    "readMore": "阅读全文",
+    "back": "返回论文列表",
+    "publishedOn": "发表时间",
+    "authors": "作者",
+    "status": "状态",
+    "published": "已发表",
+    "doi": "原文链接",
+    "jcr": "期刊分区"
   },
   "projects": {
     "title": "项目作品",
     "viewProject": "查看项目",
     "techUsed": "技术栈"
-  },
-  "resume": {
-    "title": "简历",
-    "education": "教育经历",
-    "experience": "工作经历",
-    "skills": "专业技能"
   },
   "photography": {
     "title": "摄影作品",

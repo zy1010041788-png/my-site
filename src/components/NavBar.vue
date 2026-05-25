@@ -58,13 +58,12 @@ import LanguageToggle from './LanguageToggle.vue'
 const { t, locale } = useI18n()
 const menuOpen = ref(false)
 
-const siteName = computed(() => locale.value === 'zh' ? '主页' : 'My Site')
+const siteName = computed(() => locale.value === 'zh' ? '张扬' : 'Zhang Yang')
 
 const navItems = computed(() => [
   { path: '/', label: t('nav.home') },
   { path: '/articles', label: t('nav.articles') },
   { path: '/projects', label: t('nav.projects') },
-  { path: '/resume', label: t('nav.resume') },
   { path: '/photography', label: t('nav.photography') },
 ])
 </script>

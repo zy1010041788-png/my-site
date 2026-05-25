@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="p-5">
-      <h3 class="font-heading text-xl text-primary mb-2">{{ projectTitle }}</h3>
+      <h3 class="text-xl text-primary mb-2">{{ projectTitle }}</h3>
       <p class="text-sm text-secondary mb-3 line-clamp-2">{{ projectSummary }}</p>
       <div class="flex flex-wrap gap-1.5">
         <span
