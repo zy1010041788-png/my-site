@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Home",
+    "articles": "Articles",
+    "projects": "Projects",
+    "resume": "Resume",
+    "photography": "Photography"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "role": "Developer / Designer",
+    "bio": "About me. Passionate about technology, design, and photography.",
+    "skills": "Skills",
+    "interests": "Interests"
+  },
+  "articles": {
+    "title": "Articles",
+    "readMore": "Read More",
+    "back": "Back to Articles",
+    "publishedOn": "Published on"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "techUsed": "Tech Stack"
+  },
+  "resume": {
+    "title": "Resume",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills"
+  },
+  "photography": {
+    "title": "Photography",
+    "all": "All"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "builtWith": "Built with Vue + Tailwind CSS"
+  }
+}
