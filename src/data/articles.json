@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "示例文章标题",
+    "titleEn": "Sample Article Title",
+    "summary": "这是文章的摘要。",
+    "summaryEn": "This is the article summary.",
+    "date": "2026-05-25",
+    "tags": ["技术", "Vue"],
+    "content": "## 这是标题\n\n这是文章正文内容。支持 **Markdown** 格式。",
+    "contentEn": "## This is a heading\n\nThis is the article body. Supports **Markdown** format."
+  }
+]
